@@ -1,0 +1,20 @@
+{
+  "name": "mu04-student-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Ubaid",
+  "license": "MIT",
+  "description": "A command-line interface (CLI) application for managing students, enrolling them in courses, viewing balances, and paying fees.",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
